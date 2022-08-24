@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Daniel Low"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/personal-photo.jpg"
   bio    : "Personal Blog to keep ideas. Opinions expressed are solely my own."
   links:
   # Jekyll Icons - https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/
@@ -74,13 +74,13 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github-alt"
       url: "https://github.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/low-daniel/"
 
 defaults:
