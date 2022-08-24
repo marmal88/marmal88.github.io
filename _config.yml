@@ -68,7 +68,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/low-daniel/"
 
 footer:
@@ -77,7 +77,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-square"
