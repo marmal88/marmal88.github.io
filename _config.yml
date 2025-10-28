@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Musings of a Marmalade
-email: dlow017@e.ntu.edu.sg
+email: danlowgw@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal musings by a marmalade
+  Daniel Low
 twitter_username: username
 github_username: marmal88
-minimal_mistakes_skin: default
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
@@ -58,15 +58,15 @@ plugins:
 author:
   name   : "Daniel Low"
   avatar : "/assets/images/personal-photo.jpg"
-  bio    : "Personal Blog to keep ideas. Opinions expressed are solely my own."
+  bio    : "Hi its Daniel"
   links:
   # Jekyll Icons - https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/
     - label: "GitHub"
       icon: "fab fa-fw fa-github-alt"
-      url: "https://github.com/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://github.com/marmal88"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@danlowgw"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/low-daniel/"
