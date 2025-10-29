@@ -11,7 +11,8 @@ So I've recently added 3 new plugins to my git workflow on vim.
 - Neogit - for git workflow 
 - DiffView - for handling merge changes
 
-Initially I was quite hesitant of installing a new git workflow, as I felt that I didn't want to lose touch of typing the actual git commands in the terminal. 
+## Neogit
+Initially I was quite hesitant of installing a plugin for git workflow, as I felt that I didn't want to lose touch of typing the actual git commands in the terminal. 
 
 However, I realized that there were a whole bunch of git commands that I would not have bothered to do if i was not using neogit. 
 
