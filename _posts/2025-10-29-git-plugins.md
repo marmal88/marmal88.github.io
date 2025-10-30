@@ -16,7 +16,7 @@ I thought these plugins made working with git more intuitive on the terminal.
 ## Gitsigns
 This is a plugin renders the uncomitted changes made on your file and comes with several useful other tools to navigate commits and view the git tree.
 
-!['gitblame'](../assets/images/posts/gitsigns_blame.png ":Gitsigns blame showing gitblame side by side with changes")
+![gitblame](../assets/images/posts/gitsigns_blame.png)
 
 An unexpected workflow combination that turned out to be useful was using `:Gitsign diffthis` in combination with `MarkdownPreview`.
 
@@ -29,7 +29,7 @@ However, I realized that there were a whole bunch of git commands that I would n
 
 For example, being able to commit just the lines that I want instead of commiting the entire file is now easily done via vim `Visual` mode line selection.
 
-!['commiting to git by line'](../assets/images/posts/neogit_line_commit.png)
+![commiting to git by line](../assets/images/posts/neogit_line_commit.png)
 
 Another bug bear was not being able to preview git stash easily. Now with the inbuilt previewer I can quickly view stashed changes and make a decision on which stash I would like to keep.
 
