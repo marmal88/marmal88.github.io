@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autocompletion on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/autocompletion/</link>
+    <description>Recent content in Autocompletion on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <atom:link href="http://localhost:1313/categories/autocompletion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Managing autocompletion neovim</title>
+      <link>http://localhost:1313/posts/2025-11-02-nvim-autocomplete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-02-nvim-autocomplete/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Notice:
+Please ensure that you have already installed your language servers before working on autocompletion.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There are quite a number of plugins available for autocompletion in neovim.&lt;/p&gt;
+&lt;p&gt;I chose &lt;code&gt;blink.cmp&lt;/code&gt; due to its rust implementation and the high number of possible configurations that you can have with it, more on that later.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve broken down this article to better remind me of how to get this setup for the first time.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

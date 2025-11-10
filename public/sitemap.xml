@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>http://localhost:1313/posts/2025-10-31-nvim-diagnostics/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/2025-10-30-markdown-preview/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/2025-11-05-jupyter-notebooks/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/2025-11-02-nvim-autocomplete/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/2025-11-01-language-servers/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/2025-11-03-nvim-marks/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/2025-10-28-terminal-musings/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/2025-10-29-git-plugins/</loc>
+  </url>
+</urlset>

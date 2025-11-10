@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wezterm on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/wezterm/</link>
+    <description>Recent content in Wezterm on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <atom:link href="http://localhost:1313/categories/wezterm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My thoughts on terminals and terminal configurations</title>
+      <link>http://localhost:1313/posts/2025-10-28-terminal-musings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-10-28-terminal-musings/</guid>
+      <description>&lt;p&gt;What people need or expect from their terminals can be rather subjective depending on what you primarily use it for.&lt;/p&gt;
+&lt;p&gt;For example, for application developers who use an IDE as their main driver might see the terminal as just a place to run their scripts or to install system-wide packages.&lt;/p&gt;
+&lt;p&gt;This is in contrast to DevOps or MLOps engineers who manage multiple VM&amp;rsquo;s and do not want to lose their sessions when they move from one system to another.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

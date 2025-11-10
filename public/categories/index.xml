@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Autocompletion</title>
+      <link>http://localhost:1313/categories/autocompletion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/autocompletion/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Diagnostics</title>
+      <link>http://localhost:1313/categories/diagnostics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/diagnostics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/categories/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/git/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jupyter-Notebook</title>
+      <link>http://localhost:1313/categories/jupyter-notebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/jupyter-notebook/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Language-Servers</title>
+      <link>http://localhost:1313/categories/language-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/language-servers/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/categories/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/markdown/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Marks</title>
+      <link>http://localhost:1313/categories/marks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/marks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://localhost:1313/categories/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/terminal/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wezterm</title>
+      <link>http://localhost:1313/categories/wezterm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/wezterm/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

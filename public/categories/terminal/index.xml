@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/terminal/</link>
+    <description>Recent content in Terminal on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <atom:link href="http://localhost:1313/categories/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Diagnostics in nvim</title>
+      <link>http://localhost:1313/posts/2025-10-31-nvim-diagnostics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-10-31-nvim-diagnostics/</guid>
+      <description>&lt;p&gt;Neovim&amp;rsquo;s internal diagnostic tool &lt;code&gt;vim.diagnostic&lt;/code&gt; is a framework for diagnostic producers to report diagnostics &lt;a
+  href=&#34;https://neovim.io/doc/user/diagnostic.html&#34;
+    target=&#34;_blank&#34;
+  &gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since Neovim v0.11+, the legacy way to configure language servers has moved from &lt;code&gt;require(&#39;lspconfig&#39;)&lt;/code&gt; to &lt;code&gt;vim.lsp.config()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This change has&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Inline diagnostic
+    &lt;div id=&#34;inline-diagnostic&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#inline-diagnostic&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;While the Neovim does support inline citaton the difference is documented &lt;a
+  href=&#34;https://github.com/rachartier/tiny-inline-diagnostic.nvim?tab=readme-ov-file#comparison-with-neovims-built-in-virtual_lines&#34;
+    target=&#34;_blank&#34;
+  &gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To use this diagnostic tool you first need to switch off the&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Installing Markdown Previewer</title>
+      <link>http://localhost:1313/posts/2025-10-30-markdown-preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-10-30-markdown-preview/</guid>
+      <description>&lt;p&gt;So I recently installed the markdown-preview plugin &lt;a
+  href=&#34;%27https://github.com/iamcco/markdown-preview.nvim%27&#34;&gt;&amp;rsquo;link&amp;rsquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, I since I was on the latest version of neovim v0.12.0 at the time of writing the installation documentation was abit old.&lt;/p&gt;
+&lt;p&gt;Here is the code that I used to install the yarn and npm dependencies.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/.local/share/nvim/site/pack/packer/start/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/iamcco/markdown-preview.nvim.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd markdown-preview.nvim
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npx --yes yarn install
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npx --yes yarn build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Through this exercise I also realized that the location where the dependencies files were being stored, which was at this location &lt;code&gt;~/.local/share/nvim/site/pack/core/opt&lt;/code&gt;.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Jupyter notebooks and Neovim</title>
+      <link>http://localhost:1313/posts/2025-11-05-jupyter-notebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-05-jupyter-notebooks/</guid>
+      <description>&lt;p&gt;Native neovim support for Jupyter notebooks is not great considering the&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Serve the jupyter notebooks using the command&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uvx jupyter lab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Managing autocompletion neovim</title>
+      <link>http://localhost:1313/posts/2025-11-02-nvim-autocomplete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-02-nvim-autocomplete/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Notice:
+Please ensure that you have already installed your language servers before working on autocompletion.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There are quite a number of plugins available for autocompletion in neovim.&lt;/p&gt;
+&lt;p&gt;I chose &lt;code&gt;blink.cmp&lt;/code&gt; due to its rust implementation and the high number of possible configurations that you can have with it, more on that later.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve broken down this article to better remind me of how to get this setup for the first time.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Managing language related stuff in neovim</title>
+      <link>http://localhost:1313/posts/2025-11-01-language-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-01-language-servers/</guid>
+      <description>&lt;p&gt;This article is meant to jott down my understanding of the different options available in neovim&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Language Servers Protocols (LSPs) -&lt;/li&gt;
+&lt;li&gt;Debug Adapter Protocols (DAPs) - terminal debugger&lt;/li&gt;
+&lt;li&gt;Linters -&lt;/li&gt;
+&lt;li&gt;Formatters -&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grabbing snippets from vscode&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Managing marks in neovim</title>
+      <link>http://localhost:1313/posts/2025-11-03-nvim-marks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-03-nvim-marks/</guid>
+      <description>&lt;p&gt;One issue I had when switching to neovim was the inefficiency in switching tabs and moving quickly across files.&lt;/p&gt;
+&lt;p&gt;For example, if i was working on a certain function in python that spanned 2 files, I typically had both open in a vertical split.&lt;/p&gt;
+&lt;p&gt;But this creates issues when there are more than 2 files or when the codebase is large and the 2 locations on the same file are far apart.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>My thoughts on terminals and terminal configurations</title>
+      <link>http://localhost:1313/posts/2025-10-28-terminal-musings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-10-28-terminal-musings/</guid>
+      <description>&lt;p&gt;What people need or expect from their terminals can be rather subjective depending on what you primarily use it for.&lt;/p&gt;
+&lt;p&gt;For example, for application developers who use an IDE as their main driver might see the terminal as just a place to run their scripts or to install system-wide packages.&lt;/p&gt;
+&lt;p&gt;This is in contrast to DevOps or MLOps engineers who manage multiple VM&amp;rsquo;s and do not want to lose their sessions when they move from one system to another.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Thoughts on git workflow</title>
+      <link>http://localhost:1313/posts/2025-10-29-git-plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-10-29-git-plugins/</guid>
+      <description>&lt;p&gt;So I&amp;rsquo;ve recently added 3 new plugins to my git workflow on vim.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gitsigns - for highlighting changes in texts and to offer a view of file changes&lt;/li&gt;
+&lt;li&gt;Neogit - for git workflow&lt;/li&gt;
+&lt;li&gt;DiffView - for handling merge changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I thought these plugins made working with git more intuitive on the terminal.&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;1. Gitsigns
+    &lt;div id=&#34;1-gitsigns&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-gitsigns&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;This is a plugin renders the uncomitted changes made on your file and comes with several useful other tools to navigate commits and view the git tree.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

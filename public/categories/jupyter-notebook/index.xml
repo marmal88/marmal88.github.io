@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jupyter-Notebook on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/jupyter-notebook/</link>
+    <description>Recent content in Jupyter-Notebook on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <atom:link href="http://localhost:1313/categories/jupyter-notebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jupyter notebooks and Neovim</title>
+      <link>http://localhost:1313/posts/2025-11-05-jupyter-notebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-05-jupyter-notebooks/</guid>
+      <description>&lt;p&gt;Native neovim support for Jupyter notebooks is not great considering the&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Serve the jupyter notebooks using the command&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uvx jupyter lab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Managing language related stuff in neovim</title>
+      <link>http://localhost:1313/posts/2025-11-01-language-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-01-language-servers/</guid>
+      <description>&lt;p&gt;This article is meant to jott down my understanding of the different options available in neovim&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Language Servers Protocols (LSPs) -&lt;/li&gt;
+&lt;li&gt;Debug Adapter Protocols (DAPs) - terminal debugger&lt;/li&gt;
+&lt;li&gt;Linters -&lt;/li&gt;
+&lt;li&gt;Formatters -&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grabbing snippets from vscode&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

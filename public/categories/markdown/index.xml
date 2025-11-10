@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/markdown/</link>
+    <description>Recent content in Markdown on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <atom:link href="http://localhost:1313/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing Markdown Previewer</title>
+      <link>http://localhost:1313/posts/2025-10-30-markdown-preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-10-30-markdown-preview/</guid>
+      <description>&lt;p&gt;So I recently installed the markdown-preview plugin &lt;a
+  href=&#34;%27https://github.com/iamcco/markdown-preview.nvim%27&#34;&gt;&amp;rsquo;link&amp;rsquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, I since I was on the latest version of neovim v0.12.0 at the time of writing the installation documentation was abit old.&lt;/p&gt;
+&lt;p&gt;Here is the code that I used to install the yarn and npm dependencies.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/.local/share/nvim/site/pack/packer/start/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/iamcco/markdown-preview.nvim.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd markdown-preview.nvim
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npx --yes yarn install
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npx --yes yarn build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Through this exercise I also realized that the location where the dependencies files were being stored, which was at this location &lt;code&gt;~/.local/share/nvim/site/pack/core/opt&lt;/code&gt;.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marks on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/marks/</link>
+    <description>Recent content in Marks on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <atom:link href="http://localhost:1313/categories/marks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Managing marks in neovim</title>
+      <link>http://localhost:1313/posts/2025-11-03-nvim-marks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-11-03-nvim-marks/</guid>
+      <description>&lt;p&gt;One issue I had when switching to neovim was the inefficiency in switching tabs and moving quickly across files.&lt;/p&gt;
+&lt;p&gt;For example, if i was working on a certain function in python that spanned 2 files, I typically had both open in a vertical split.&lt;/p&gt;
+&lt;p&gt;But this creates issues when there are more than 2 files or when the codebase is large and the 2 locations on the same file are far apart.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
