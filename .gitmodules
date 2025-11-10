@@ -1,0 +1,13 @@
+[submodule "themes/blox-builder"]
+	path = themes/blox-builder
+	url = https://github.com/HugoBlox/hugo-blox-builder
+[submodule "themes/hugo-blox-builder"]
+	path = themes/hugo-blox-builder
+	url = https://github.com/HugoBlox/hugo-blox-builder
+[submodule "assets/themes/hugo-blox-builder"]
+	path = assets/themes/hugo-blox-builder
+	url = https://github.com/HugoBlox/hugo-blox-builder
+[submodule "themes/blowfish"]
+	path = themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
+	branch = main
