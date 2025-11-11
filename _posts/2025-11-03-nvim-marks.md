@@ -15,9 +15,9 @@ One way of solving it is to use folds, but sometimes this hides details that mig
 
 Since we already have a mental map of the sections that are required, The easier way would be to have a way of navigating across these points.
 
-That's when I encountered neovim's `marks`.
+That's when I discovered `marks` in neovim, which are a quick way to move within and between files.
 
-But.. there are also issues with marks:
+But... there were also issues with marks.
 
 - By default `marks` are invisible on neovim, hence you need a way to search/preview them
 - Navigating Marks across different files and buffers is non native to neovim
