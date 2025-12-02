@@ -46,12 +46,31 @@ The ease of executing commands that are harder to remember makes me more confide
 ## 3. Diffview
 Diffview is the plugin I use to manage merge conflicts and view code changes over time.
 
+To toggle between opening and closing the diffview window, I have mapped the following keybindings.
+```
+vim.keymap.set('n', '<leader>dv', function()
+	if next(require('diffview.lib').views) == nil then
+		vim.cmd('DiffviewOpen')
+	else
+		vim.cmd('DiffviewClose')
+	end
+end, { desc = 'Toggle Diffview' })
+```
+
 ### 3.1 Merge conflicts
 For merge conflicts the 3-way diff view provides an interface to manage merge conflicts
 
 ### 3.2 File History
-I can also take a look at file history using `DiffViewFilehistory <file>` and search into the previous git changes of the file.
+Another feature that I use often is to review the current file history using `DiffViewFilehistory <file>` and search into the previous git changes of the file.
 
-This workflow together with `git log --oneline`
+By binding this keymap and reviewing files often , I realized that I keep better commits over time and am able to review them better over time.
 
+```
+vim.keymap.set('n', '<leader>dh', '<CMD>DiffviewFileHistory<CR>', { desc = 'View file history' })
+```
+
+### 3.2 Viewing differences between specific commits 
+Another workflow that works for me is to run `git log --oneline` to obtain the specific commit hash.
+
+I'll then check the difference between this file and the others using `:DiffViewOpen <commit-hash>`. 
 
