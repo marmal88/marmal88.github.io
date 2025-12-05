@@ -21,6 +21,10 @@ As you will need rust to get the most of `blink.cmp`, you can install it using t
 ```bash
 # Install Rust 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# Add to path by following the following commands
+. "$HOME/.cargo/env"                     # For sh/bash/zsh/ash/dash/pdksh
+source "$HOME/.cargo/env.fish"           # For fish
+source $"($nu.home-path)/.cargo/env.nu"  # For nushell
 ```
 After adding the package to `vim.pack`, go to the location `~/.local/share/nvim/site/pack/core/opt/blink.cmp` here is where the neovim packages are installed.
 
