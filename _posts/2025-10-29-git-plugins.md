@@ -5,11 +5,12 @@ categories:
   - git
 ---
 
-So I've recently added 3 new plugins to my git workflow on vim. 
+So I've recently added 4 new plugins to my git workflow on vim. 
 
 - Gitsigns - for highlighting changes in texts and to offer a view of file changes
 - Neogit - for git workflow 
 - DiffView - for handling merge changes
+- Lazygit - integrated UI for more complicated git workflows
 
 I thought these plugins made working with git more intuitive on the terminal.
 
@@ -73,4 +74,11 @@ vim.keymap.set('n', '<leader>dh', '<CMD>DiffviewFileHistory<CR>', { desc = 'View
 Another workflow that works for me is to run `git log --oneline` to obtain the specific commit hash.
 
 I'll then check the difference between this file and the others using `:DiffViewOpen <commit-hash>`. 
+
+
+### 4. Lazygit
+This is really more of a preference thing, but I realized that I am inclined to use the more verbose git commands like interactive rebase and cherry-pick when using lazygit.
+
+This plugin allows me to write more concise commits and make the overall PR somewhat more understandable. 
+
 
